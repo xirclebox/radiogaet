@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  height: 95vh;
+  justify-content: center;
+}
+
+.logo {
+  max-width: 700px;
+  width: 100%;
+}
